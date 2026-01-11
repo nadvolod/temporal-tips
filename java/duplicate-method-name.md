@@ -12,7 +12,7 @@ By default, the Java SDK generates an Activity Type name from the method name in
 ```java
 @ActivityInterface(namePrefix = "DataService_")
 public interface DataActivities {
-    @ActivityMethod(name = "Analyze")
+    @ActivityMethod(name = "AnalyzeData")
     void analyze();
 }
 ```
